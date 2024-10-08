@@ -6,3 +6,8 @@ const symbolSet = "~!@#$%^&*()_+/"
 const getRandomData = (dataSet) => {
     return dataSet[Math.floor(Math.random() * dataSet.length)]
 }
+
+const generatePassword = (password ="") => {
+
+}
+
