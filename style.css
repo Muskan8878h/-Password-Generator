@@ -35,3 +35,12 @@ input:focus-visible{
     padding: 10px;
     border-radius: 4px;
 }
+
+.row{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
