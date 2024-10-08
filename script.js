@@ -16,6 +16,18 @@ const getRandomData = (dataSet) => {
 }
 
 const generatePassword = (password ="") => {
-    
+    if(upperInput.checked){
+        password += getRandomData(upperSet)
+    }
+    if(lowerInput.checked){
+        password += getRandomData(lowerSet)
+    }
+    if(numberInput.checked){
+        password += getRandomData(numberSet)
+    }
+    if(symbolInput.checked){
+        password += getRandomData(symbolSet)
+    }
+
 }
 
