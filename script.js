@@ -37,6 +37,14 @@ const generatePassword = (password ="") => {
 }
 
 
+generatePassword();
+
+document.getElementById("btn").addEventListener(
+    "click", 
+    function(){
+        generatePassword();
+    }
+)
 
 function truncateString(str, num){
     if(str.length > num){
