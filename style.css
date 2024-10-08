@@ -6,3 +6,6 @@
     font-family: sans-serif;
 }
 
+input:focus-visible{
+    outline: 0;
+}
