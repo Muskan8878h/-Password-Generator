@@ -29,5 +29,10 @@ const generatePassword = (password ="") => {
         password += getRandomData(symbolSet)
     }
 
+    if(password.length < totalChar.value){
+        return generatePassword(password)
+    }
+    // console.log(truncateString(password, totalChar.value))
+    passBox.innerText = truncateString(password, totalChar.value)
 }
 
